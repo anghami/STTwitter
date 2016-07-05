@@ -19,7 +19,7 @@
 #   define STLog(...)
 #endif
 
-@interface NSData (Base64)
+@interface NSData (STBase64)
 - (NSString *)base64Encoding; // private API
 @end
 

@@ -57,7 +57,7 @@ static BOOL globalIgnoreCache = NO;
 @property (nonatomic, strong) NSURLRequest *request;
 @end
 
-@interface NSData (Base64)
+@interface NSData (STBase64)
 - (NSString *)base64Encoding; // private API
 @end
 

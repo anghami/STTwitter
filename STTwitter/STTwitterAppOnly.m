@@ -11,7 +11,7 @@
 #import "NSString+STTwitter.h"
 #import "STHTTPRequest+STTwitter.h"
 
-@interface NSData (Base64)
+@interface NSData (STBase64)
 - (NSString *)base64Encoding; // private API
 @end
 
